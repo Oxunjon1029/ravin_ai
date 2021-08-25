@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 28%;
+    height: 20%;
+    object-fit: cover;
+}
+.our_partners{
+    background-color: #E9EAF2;
+    /* height: 50vh; */
+}
+.partner_h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: Fluro, sans-serif;
+    color: #333333;
+    padding: 50px;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+ 
+
+@media screen and (max-width:768px){
+    .partner_h1{
+        padding: 10px;
+    }
+    .slider{
+        padding: 0;
+    }
+    .img{
+        width: 50%;
+        height: 30%;
+        margin:0 auto;
+    }
+}

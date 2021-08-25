@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid_work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 35rem;
+    grid-row-gap: 1.5rem;
+}
+.grid_work div h1{
+    color: #24243b;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+}
+.grid_work div h4{
+    color: #79799a;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.learn a{
+    text-decoration: none;
+    color: #C4B8FF;
+    font-size: 19px;
+    line-height: 33px;
+    font-weight: 600;
+}
+.learn:hover > .learn a{
+    color: #23184f;
+    transition: all .6s ease;
+
+}
+@media screen and (max-width:768px){
+    .grid_work div h1,.grid_work div h4{
+        text-align: center;
+    }
+    .learn{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

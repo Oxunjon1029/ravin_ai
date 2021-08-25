@@ -1,0 +1,149 @@
+.Tool {
+    min-height: 100vh;
+    z-index: -1 !important;
+    top: 0;
+}
+
+.tol {
+    background-image: url('../Images/tool_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    /* padding-top: 384px; */
+}
+
+.tol h1 {
+    color: #f4f6f8;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.ins_auto_eye {
+    background-color: #F6F7F9;
+}
+
+.tool_container, .tool_conatiner_1 {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.inspect_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
+.inspect_grid img {
+    width: 12%;
+}
+
+.inspect_grid h1 {
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #24243b;
+}
+
+.tool_tm {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.inspect_grid h3 {
+    color: #765aff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.inspect_grid p {
+    display: inline-block;
+    color: #22174e;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.true {
+    width: 4% !important;
+}
+
+.tool_car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool_car img {
+    width: 100%;
+}
+
+.implementation {
+    background-color: #EFF0F6;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.api {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tool_api h1 {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #24243b;
+}
+
+.no_matter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only  screen and (max-width:768px) {
+    .api {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .tool_api h1 {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+    .tol {
+        background-position: 85% 100%;
+        height: 35vh;
+    }
+    .tol h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+@media screen and (min-width:910px) and (max-width:1024px){
+    .tol{
+        background-position: 75% 100%;
+        height: 55vh;
+    }
+}
+@media screen and (min-width:1366px) and (max-width:1444px){
+    .tol{
+        background-position: 80% 100%;
+        height: 65vh;
+    }
+}

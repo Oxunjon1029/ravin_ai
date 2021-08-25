@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fleet_solution{
+    background-image: url('../Images/fleet_solution.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 75vh;
+    position: relative;
+
+}
+.fleet_solution p,.fleet_solution h1{
+    position: absolute;
+    left: 2%;
+}
+.fleet_solution p{
+    bottom: 15%;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #f4f6f8;
+}
+.fleet_solution h1{
+    bottom: 2%;
+    font-size: 64px;
+    line-height: 51px;
+    font-weight: 700;
+    color: #f4f6f8;
+}
+.fleet_conatiner{
+    background-color: #F6F7F9;
+}
+.fleet_solution_conatiner{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.how_it_works,.benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.how_it_works h1,
+.benefits h1{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: serif;
+    color: #150c3b;
+}
+.how_it_works p , 
+.benefits p
+{
+    display: inline-block;
+    color: #22174e;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.how_it_works p img , .benefits p img{
+    width: 5%;
+}
+.fleet_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+.report img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* case studies */
+.case_studies{
+    background-color: #EDEFF6;
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.case{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+}
+.case h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #150c3b;
+    margin-bottom: 100px;
+}
+.avis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #333333;
+    width: 50%;
+}
+.budjet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 10vh;
+    margin-right: 20px;
+}
+.p_1{
+    color: #333333;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: serif;
+}
+.p_2{
+    color: #333333;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: serif;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    padding: 26px;
+}
+.article h3{
+    color: #22174e;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.rental{
+    color: #765aff;
+    font-size: 19px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: serif;
+}
+.read{
+    display: inline-block;
+    color: #22174e;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+.read:hover{
+    transition: .6s;
+    color: #765aff;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .fleet_solution{
+        background-position: 78% 100%;
+        height: 35vh;
+    }
+
+    .fleet_solution h1{
+        font-size: 50px;
+    }
+    .fleet_solution p{
+        bottom: 18% !important;
+        font-size: 28px;
+
+    }
+    .fleet_media{
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .avis{border-right: 0 !important;}
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .fleet_solution{
+        background-position: 70% 100%;
+        height: 55vh;
+    }
+}
