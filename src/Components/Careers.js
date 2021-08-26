@@ -60,13 +60,7 @@ const Careers = () => {
             qualification_text:"Proven experience (3+ years) in full stack development including microservice architecture, cloud solutions, Node.js and Python, Object Oriented and functional programming, Databases: RDS, NOSQL (MongoDB, DynamoDB), MemCache."
         }
     ]
-    const [visible,setVisible] = useState(false)
-    const OnClick = (id) =>{
-        setVisible(true)
-    }
-    const OnCancel = (id) =>{
-        setVisible(false)
-    }
+   
     return (
         <div className="Career">
             <div className="careers">
