@@ -155,7 +155,9 @@
 
 
 @media screen and (max-width:768px){
-
+.Contact{
+    height: 100%;
+}
     .conatct_us{
         padding: 0;
         margin-bottom: 30px;
